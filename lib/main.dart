@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   var myOpacity = 1.0;
   bool isVisible = true;
 
-  @override
+
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
                   }
                 });
               },
-              child: Text(isVisible ? 'Hide' : 'Show'),
+              child: Text(isVisible ? 'vislible hide' : 'Show'),
             ),
           ],
         ),
