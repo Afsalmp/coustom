@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
                   }
                 });
               },
-              child: Text(isVisible ? 'vislible hide' : 'Show'),
+              child: Text(isVisible ? ' hide visible' : 'Show'),
             ),
           ],
         ),
